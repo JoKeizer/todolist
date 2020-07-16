@@ -1,0 +1,81 @@
+body {
+    background-color: #000;
+    padding: 20px
+}
+h1,h2,h3,h4,h5,h6 {
+    color: white;
+}
+
+.container {
+    padding-top: 30px;
+}
+
+.badge-danger {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    color: white;
+    text-transform: uppercase;
+}
+
+.to-do-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+}
+
+.due-date {
+    display: flex;
+}
+
+.due-date-white {
+    display: flex;
+    color: white;
+}
+
+
+.text-white {
+    color: white;
+}
+
+.text-red {
+    color: red;
+}
+.btn-default {
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+}
+
+.align-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-group {
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer {
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 40px;
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar-dark .navbar-toggler {
+    background-color: red;
+}
